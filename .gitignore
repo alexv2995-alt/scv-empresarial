@@ -1,0 +1,108 @@
+# =========================
+# Sistema Operativo
+# =========================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# =========================
+# Archivos de Backup / Temporales
+# =========================
+
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*.log
+
+# =========================
+# Entornos Virtuales / Dependencias
+# =========================
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+
+# Java
+*.class
+*.jar
+*.war
+
+# =========================
+# Archivos de IDE / Editor
+# =========================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# =========================
+# Builds / Distribución
+# =========================
+
+dist/
+build/
+out/
+coverage/
+
+# =========================
+# Docker
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+# Git
+# =========================
+
+# Merge / rebase temporales
+*.orig
+*.rej
+
+# Submódulos
+.gitmodules
+
+# =========================
+# Seguridad
+# =========================
+
+# Claves privadas
+*.key
+*.pem
+*.crt
+
+# =========================
+# Documentación generada
+# =========================
+
+docs/_build/
+docs/.cache/
